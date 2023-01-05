@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+#loginpage {
+  margin-top: 15px;
+}
+
+#loginpage .heading h1 {
+  color: rgba(243, 52, 227, 0.781);
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+#loginpage .heading h3 {
+  text-align: center;
+}
+
+#loginpage .form-group label {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#loginpage #bestiepassword {
+  background-color: black;
+  color: white;
+  border: none;
+  transition-duration: 0.7s;
+  transition-property: all;
+}
+
+#loginpage #bestiepassword:focus {
+  box-shadow: none;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid red;
+  background-color: #f7f7f7;
+}
+
+#loginpage #errorlogin {
+  color: green;
+  text-align: center;
+  display: block;
+}
+
+#loginpage #errorlogin2 {
+  color: red;
+  text-align: center;
+  display: block;
+}
+
+#buttonsubmit {
+  margin: auto, 0;
+}
+
+#loader {
+  justify-content: center;
+}
+
+#loader .dot {
+  animation: bounce 0.7s infinite ease-in-out alternate;
+}
+
+#loader .dot:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+#loader .dot:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+#loader .dot:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+#loader .dot:nth-child(5) {
+  animation-delay: 400ms;
+}
+
+#loader .dot:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+#loader .dot:nth-child(7) {
+  animation-delay: 600ms;
+}
+
+#loader .dot:nth-child(8) {
+  animation-delay: 700ms;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(40px);
+    color: green;
+    font-size: 25px;
+  }
+}
